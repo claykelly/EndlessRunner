@@ -89,10 +89,10 @@
 		908F748A206ABF9C00C07E4B /* Endless RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Endless RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908F748E206ABF9C00C07E4B /* Endless_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endless_RunnerUITests.swift; sourceTree = "<group>"; };
 		908F7490206ABF9C00C07E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		908F749C206ABFE500C07E4B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../test/test/GameScene.swift; sourceTree = "<group>"; };
-		908F74A0206ABFEA00C07E4B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Actions.sks; path = ../../test/test/Actions.sks; sourceTree = "<group>"; };
-		908F74A4206ABFEE00C07E4B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../test/test/GameScene.sks; sourceTree = "<group>"; };
-		908F74A8206ABFF400C07E4B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../../test/test/GameViewController.swift; sourceTree = "<group>"; };
+		908F749C206ABFE500C07E4B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		908F74A0206ABFEA00C07E4B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		908F74A4206ABFEE00C07E4B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		908F74A8206ABFF400C07E4B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		908F74AC206AC0AA00C07E4B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectViewController.swift; sourceTree = "<group>"; };
