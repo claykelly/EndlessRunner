@@ -1,0 +1,6 @@
+framework module Pods_Endless_RunnerTests {
+  umbrella header "Pods-Endless RunnerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

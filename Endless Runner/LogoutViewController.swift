@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class LogoutViewController: UIViewController {
     
@@ -20,6 +22,17 @@ class LogoutViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func logOutButton(_ sender: Any) {
+        if Auth.auth().currentUser != nil {
+            do {
+                try Auth.auth().signOut()
+                self.performSegue(withIdentifier: "goToLogin", sender: self)
+                
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        }
+    }
     
 }
 

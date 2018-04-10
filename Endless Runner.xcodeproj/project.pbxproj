@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BBC1C9D31FA1383B18E102A /* Pods_Endless_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */; };
+		26BFC54A9A33F269090E1AB7 /* Pods_Endless_RunnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */; };
+		74C7012B448487AB505E33F5 /* Pods_Endless_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C10E3F29AFA5EB347DE4C18 /* Pods_Endless_RunnerTests.framework */; };
+		90314410207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
+		90314411207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
+		90314412207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F746B206ABF9C00C07E4B /* AppDelegate.swift */; };
 		908F7471206ABF9C00C07E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F746F206ABF9C00C07E4B /* Main.storyboard */; };
 		908F7474206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 908F7472206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld */; };
@@ -76,6 +82,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22737D01A021DAE3B5EA54ED /* Pods-Endless RunnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerUITests/Pods-Endless RunnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C10E3F29AFA5EB347DE4C18 /* Pods_Endless_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		423D67D85E15A6BE2843B797 /* Pods-Endless RunnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerUITests/Pods-Endless RunnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9031440F207B05570086060C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		908F7468206ABF9C00C07E4B /* Endless Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908F746B206ABF9C00C07E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		908F7470206ABF9C00C07E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +116,9 @@
 		908F74CC206AFEA500C07E4B /* LocalHighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHighScores.swift; sourceTree = "<group>"; };
 		908F74D4206AFEF300C07E4B /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		908F74D8206AFF1900C07E4B /* MidGameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameSettings.swift; sourceTree = "<group>"; };
+		BBF5F648E7B4D3DD8AE7125C /* Pods-Endless Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.release.xcconfig"; sourceTree = "<group>"; };
+		CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_RunnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF19206B7A6E2C7F650EB660 /* Pods-Endless RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBC1C9D31FA1383B18E102A /* Pods_Endless_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C7012B448487AB505E33F5 /* Pods_Endless_RunnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,12 +142,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BFC54A9A33F269090E1AB7 /* Pods_Endless_RunnerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39552A85521BA1EB5892AF78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */,
+				BBF5F648E7B4D3DD8AE7125C /* Pods-Endless Runner.release.xcconfig */,
+				6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */,
+				DF19206B7A6E2C7F650EB660 /* Pods-Endless RunnerTests.release.xcconfig */,
+				423D67D85E15A6BE2843B797 /* Pods-Endless RunnerUITests.debug.xcconfig */,
+				22737D01A021DAE3B5EA54ED /* Pods-Endless RunnerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		908F745F206ABF9C00C07E4B = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +169,8 @@
 				908F7482206ABF9C00C07E4B /* Endless RunnerTests */,
 				908F748D206ABF9C00C07E4B /* Endless RunnerUITests */,
 				908F7469206ABF9C00C07E4B /* Products */,
+				39552A85521BA1EB5892AF78 /* Pods */,
+				9AA53BA75B90D79FA9D39CF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +207,7 @@
 				908F7472206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld */,
 				908F74A4206ABFEE00C07E4B /* GameScene.sks */,
 				908F74A0206ABFEA00C07E4B /* Actions.sks */,
+				9031440F207B05570086060C /* GoogleService-Info.plist */,
 			);
 			path = "Endless Runner";
 			sourceTree = "<group>";
@@ -195,6 +230,16 @@
 			path = "Endless RunnerUITests";
 			sourceTree = "<group>";
 		};
+		9AA53BA75B90D79FA9D39CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */,
+				3C10E3F29AFA5EB347DE4C18 /* Pods_Endless_RunnerTests.framework */,
+				CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 908F7493206ABF9C00C07E4B /* Build configuration list for PBXNativeTarget "Endless Runner" */;
 			buildPhases = (
+				9C72F15AA2BCE993D8CBAC15 /* [CP] Check Pods Manifest.lock */,
 				908F7464206ABF9C00C07E4B /* Sources */,
 				908F7465206ABF9C00C07E4B /* Frameworks */,
 				908F7466206ABF9C00C07E4B /* Resources */,
+				9ADFC21CD49C0BA5A6D32C92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 908F7496206ABF9C00C07E4B /* Build configuration list for PBXNativeTarget "Endless RunnerTests" */;
 			buildPhases = (
+				00B502DD63C404EC5ED51E14 /* [CP] Check Pods Manifest.lock */,
 				908F747B206ABF9C00C07E4B /* Sources */,
 				908F747C206ABF9C00C07E4B /* Frameworks */,
 				908F747D206ABF9C00C07E4B /* Resources */,
@@ -237,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 908F7499206ABF9C00C07E4B /* Build configuration list for PBXNativeTarget "Endless RunnerUITests" */;
 			buildPhases = (
+				410022AE320DE272FFB8C924 /* [CP] Check Pods Manifest.lock */,
 				908F7486206ABF9C00C07E4B /* Sources */,
 				908F7487206ABF9C00C07E4B /* Frameworks */,
 				908F7488206ABF9C00C07E4B /* Resources */,
@@ -307,6 +356,7 @@
 				908F7476206ABF9C00C07E4B /* Assets.xcassets in Resources */,
 				908F7471206ABF9C00C07E4B /* Main.storyboard in Resources */,
 				908F74A1206ABFEA00C07E4B /* Actions.sks in Resources */,
+				90314410207B05570086060C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +366,7 @@
 			files = (
 				908F74A6206ABFEE00C07E4B /* GameScene.sks in Resources */,
 				908F74A2206ABFEA00C07E4B /* Actions.sks in Resources */,
+				90314411207B05570086060C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,10 +376,90 @@
 			files = (
 				908F74A7206ABFEE00C07E4B /* GameScene.sks in Resources */,
 				908F74A3206ABFEA00C07E4B /* Actions.sks in Resources */,
+				90314412207B05570086060C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B502DD63C404EC5ED51E14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Endless RunnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		410022AE320DE272FFB8C924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Endless RunnerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADFC21CD49C0BA5A6D32C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C72F15AA2BCE993D8CBAC15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Endless Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		908F7464206ABF9C00C07E4B /* Sources */ = {
@@ -536,6 +667,7 @@
 		};
 		908F7494206ABF9C00C07E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +682,7 @@
 		};
 		908F7495206ABF9C00C07E4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF5F648E7B4D3DD8AE7125C /* Pods-Endless Runner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +697,7 @@
 		};
 		908F7497206ABF9C00C07E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,6 +714,7 @@
 		};
 		908F7498206ABF9C00C07E4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF19206B7A6E2C7F650EB660 /* Pods-Endless RunnerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +731,7 @@
 		};
 		908F749A206ABF9C00C07E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423D67D85E15A6BE2843B797 /* Pods-Endless RunnerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -611,6 +747,7 @@
 		};
 		908F749B206ABF9C00C07E4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22737D01A021DAE3B5EA54ED /* Pods-Endless RunnerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
