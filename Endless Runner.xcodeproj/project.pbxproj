@@ -62,6 +62,7 @@
 		908F74D9206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
 		908F74DA206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
 		908F74DB206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
+		C3D40FF1207D35C40069E972 /* MidGameQuitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FF0207D35C40069E972 /* MidGameQuitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,7 @@
 		908F74D4206AFEF300C07E4B /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		908F74D8206AFF1900C07E4B /* MidGameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameSettings.swift; sourceTree = "<group>"; };
 		BBF5F648E7B4D3DD8AE7125C /* Pods-Endless Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.release.xcconfig"; sourceTree = "<group>"; };
+		C3D40FF0207D35C40069E972 /* MidGameQuitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameQuitViewController.swift; sourceTree = "<group>"; };
 		CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_RunnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF19206B7A6E2C7F650EB660 /* Pods-Endless RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,6 +200,7 @@
 				908F74CC206AFEA500C07E4B /* LocalHighScores.swift */,
 				908F74D4206AFEF300C07E4B /* CreditsViewController.swift */,
 				908F74D8206AFF1900C07E4B /* MidGameSettings.swift */,
+				C3D40FF0207D35C40069E972 /* MidGameQuitViewController.swift */,
 				908F74A8206ABFF400C07E4B /* GameViewController.swift */,
 				908F749C206ABFE500C07E4B /* GameScene.swift */,
 				908F746F206ABF9C00C07E4B /* Main.storyboard */,
@@ -466,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D40FF1207D35C40069E972 /* MidGameQuitViewController.swift in Sources */,
 				908F74D5206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
 				908F74D9206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
 				908F74B1206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
