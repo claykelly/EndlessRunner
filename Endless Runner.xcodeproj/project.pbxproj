@@ -50,12 +50,6 @@
 		908F74C5206AF47100C07E4B /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74C4206AF47100C07E4B /* PauseViewController.swift */; };
 		908F74C6206AF47100C07E4B /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74C4206AF47100C07E4B /* PauseViewController.swift */; };
 		908F74C7206AF47100C07E4B /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74C4206AF47100C07E4B /* PauseViewController.swift */; };
-		908F74C9206AFE9500C07E4B /* GlobalHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74C8206AFE9500C07E4B /* GlobalHighScores.swift */; };
-		908F74CA206AFE9500C07E4B /* GlobalHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74C8206AFE9500C07E4B /* GlobalHighScores.swift */; };
-		908F74CB206AFE9500C07E4B /* GlobalHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74C8206AFE9500C07E4B /* GlobalHighScores.swift */; };
-		908F74CD206AFEA500C07E4B /* LocalHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74CC206AFEA500C07E4B /* LocalHighScores.swift */; };
-		908F74CE206AFEA500C07E4B /* LocalHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74CC206AFEA500C07E4B /* LocalHighScores.swift */; };
-		908F74CF206AFEA500C07E4B /* LocalHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74CC206AFEA500C07E4B /* LocalHighScores.swift */; };
 		908F74D5206AFEF300C07E4B /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D4206AFEF300C07E4B /* CreditsViewController.swift */; };
 		908F74D6206AFEF300C07E4B /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D4206AFEF300C07E4B /* CreditsViewController.swift */; };
 		908F74D7206AFEF300C07E4B /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D4206AFEF300C07E4B /* CreditsViewController.swift */; };
@@ -63,6 +57,9 @@
 		908F74DA206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
 		908F74DB206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
 		C3D40FF9207D544C0069E972 /* MidGameQuitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */; };
+		C3D40FFB207D55790069E972 /* HighScoreTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */; };
+		C3D40FFD207D55E00069E972 /* LocalHighScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FFC207D55E00069E972 /* LocalHighScoresTableViewController.swift */; };
+		C3D40FFF207D55EE0069E972 /* GlobalHighScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FFE207D55EE0069E972 /* GlobalHighScoresTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,12 +110,13 @@
 		908F74B8206AE18A00C07E4B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		908F74BC206AE1F800C07E4B /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		908F74C4206AF47100C07E4B /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
-		908F74C8206AFE9500C07E4B /* GlobalHighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHighScores.swift; sourceTree = "<group>"; };
-		908F74CC206AFEA500C07E4B /* LocalHighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHighScores.swift; sourceTree = "<group>"; };
 		908F74D4206AFEF300C07E4B /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		908F74D8206AFF1900C07E4B /* MidGameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameSettings.swift; sourceTree = "<group>"; };
 		BBF5F648E7B4D3DD8AE7125C /* Pods-Endless Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.release.xcconfig"; sourceTree = "<group>"; };
 		C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameQuitViewController.swift; sourceTree = "<group>"; };
+		C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreTabViewController.swift; sourceTree = "<group>"; };
+		C3D40FFC207D55E00069E972 /* LocalHighScoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHighScoresTableViewController.swift; sourceTree = "<group>"; };
+		C3D40FFE207D55EE0069E972 /* GlobalHighScoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHighScoresTableViewController.swift; sourceTree = "<group>"; };
 		CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_RunnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF19206B7A6E2C7F650EB660 /* Pods-Endless RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,8 +194,9 @@
 				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
 				908F74BC206AE1F800C07E4B /* LogoutViewController.swift */,
 				908F74C4206AF47100C07E4B /* PauseViewController.swift */,
-				908F74C8206AFE9500C07E4B /* GlobalHighScores.swift */,
-				908F74CC206AFEA500C07E4B /* LocalHighScores.swift */,
+				C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */,
+				C3D40FFC207D55E00069E972 /* LocalHighScoresTableViewController.swift */,
+				C3D40FFE207D55EE0069E972 /* GlobalHighScoresTableViewController.swift */,
 				908F74D4206AFEF300C07E4B /* CreditsViewController.swift */,
 				908F74D8206AFF1900C07E4B /* MidGameSettings.swift */,
 				C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */,
@@ -477,9 +476,10 @@
 				908F74B5206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
 				908F74A9206ABFF400C07E4B /* GameViewController.swift in Sources */,
 				908F7474206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld in Sources */,
-				908F74C9206AFE9500C07E4B /* GlobalHighScores.swift in Sources */,
-				908F74CD206AFEA500C07E4B /* LocalHighScores.swift in Sources */,
+				C3D40FFB207D55790069E972 /* HighScoreTabViewController.swift in Sources */,
+				C3D40FFD207D55E00069E972 /* LocalHighScoresTableViewController.swift in Sources */,
 				908F749D206ABFE500C07E4B /* GameScene.swift in Sources */,
+				C3D40FFF207D55EE0069E972 /* GlobalHighScoresTableViewController.swift in Sources */,
 				908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */,
 				908F74C5206AF47100C07E4B /* PauseViewController.swift in Sources */,
 				908F74BD206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
@@ -492,8 +492,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				908F74B6206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
-				908F74CE206AFEA500C07E4B /* LocalHighScores.swift in Sources */,
-				908F74CA206AFE9500C07E4B /* GlobalHighScores.swift in Sources */,
 				908F74AE206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74BA206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 				908F74B2206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
@@ -512,8 +510,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				908F74B7206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
-				908F74CF206AFEA500C07E4B /* LocalHighScores.swift in Sources */,
-				908F74CB206AFE9500C07E4B /* GlobalHighScores.swift in Sources */,
 				908F74AF206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74BB206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 				908F74B3206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
