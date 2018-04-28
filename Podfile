@@ -5,6 +5,7 @@ target 'Endless Runner' do
   	pod 'Firebase'
 	pod 'Firebase/Core'
 	pod 'Firebase/Auth'
+	pod 'Firebase/Database'
 	use_frameworks!
 
   # Pods for Endless Runner
