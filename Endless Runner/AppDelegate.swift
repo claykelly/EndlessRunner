@@ -9,6 +9,8 @@
 import UIKit
 import CoreData
 import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

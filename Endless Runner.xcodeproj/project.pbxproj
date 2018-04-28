@@ -13,6 +13,7 @@
 		90314410207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314411207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314412207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
+		9049A0C02094C4BB008AAA9B /* CreateUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */; };
 		908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F746B206ABF9C00C07E4B /* AppDelegate.swift */; };
 		908F7471206ABF9C00C07E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F746F206ABF9C00C07E4B /* Main.storyboard */; };
 		908F7474206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 908F7472206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld */; };
@@ -87,6 +88,7 @@
 		5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9031440F207B05570086060C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameViewController.swift; sourceTree = "<group>"; };
 		908F7468206ABF9C00C07E4B /* Endless Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908F746B206ABF9C00C07E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		908F7470206ABF9C00C07E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			children = (
 				908F746B206ABF9C00C07E4B /* AppDelegate.swift */,
 				908F74AC206AC0AA00C07E4B /* LoginViewController.swift */,
+				9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */,
 				908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */,
 				908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */,
 				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
@@ -485,6 +488,7 @@
 				908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */,
 				908F74C5206AF47100C07E4B /* PauseViewController.swift in Sources */,
 				908F74BD206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
+				9049A0C02094C4BB008AAA9B /* CreateUserNameViewController.swift in Sources */,
 				908F74B9206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
