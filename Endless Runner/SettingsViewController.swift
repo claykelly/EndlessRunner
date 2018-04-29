@@ -10,6 +10,12 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     
+    var localHighscores =  [1,2,3,4,5]
+    
+    func returnLocalHighscores() -> [Int] {
+        return localHighscores
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
