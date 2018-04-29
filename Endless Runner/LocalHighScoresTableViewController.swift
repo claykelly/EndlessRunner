@@ -16,7 +16,6 @@ class LocalHighScoresViewController: UIViewController {
     var ref = Database.database().reference()
     var currentUser = Auth.auth().currentUser
     var localScores: [Int]  = []
-    let myGroup = DispatchGroup()
 
     @IBOutlet weak var topScore: UILabel!
     
@@ -105,8 +104,7 @@ class LocalHighScoresViewController: UIViewController {
                 self.tenthScore.text = String(score!)
             }
             print(self.localScores)
-            var newScore = addNewScore.create(_newScore: 0)
-            newScore.addNew()
+            
         })
         
         

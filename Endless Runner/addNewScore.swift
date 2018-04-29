@@ -30,6 +30,19 @@ func addNew(){
     var ref = Database.database().reference()
     var currentUser = Auth.auth().currentUser
     
+    var userName =  ""
+    self.ref.child("UserData").child((currentUser?.uid)!).child("Name").observeSingleEvent(of: .value, with: {(snapshot) in
+        let value = snapshot.value as? NSDictionary
+        let name = value?["username"] as? String
+        if let checkName = name{
+            userName = checkName
+        }
+        
+        let post2:[String:Any] = ["Player": userName, "Score": self.newScore]
+        
+        ref.child("Leaderboards").childByAutoId().setValue(post2)
+    })
+    
     ref.child("UserData").child((currentUser?.uid)!).child("Scores").observeSingleEvent(of: .value, with: {(snapshot) in
         
         var value = snapshot.value as? NSDictionary
@@ -96,9 +109,13 @@ func addNew(){
         self.localScores.sort()
         self.localScores.reverse()
         print(self.localScores)
+        
         let post = ["Top Score": self.localScores[0],"Second Best": self.localScores[1],"Third Best": self.localScores[2],"Forth Best": self.localScores[3],"Fifth Best": self.localScores[4],"Sixth Best": self.localScores[5],"Seventh Best": self.localScores[6],"Eighth Best": self.localScores[7],"Ninth Best": self.localScores[8],"Tenth Best":self.localScores[9]]
+        
         ref.child("UserData").child((currentUser?.uid)!).child("Scores").setValue(post)})
-}
-}
+
+    }}
+
+
 
 

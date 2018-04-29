@@ -357,10 +357,10 @@
             </objects>
             <point key="canvasLocation" x="1901.5999999999999" y="-1655.6221889055473"/>
         </scene>
-        <!--View Controller-->
+        <!--Global High Scores View Controller-->
         <scene sceneID="Ah8-fJ-Sr4">
             <objects>
-                <viewController id="ulb-Y1-pra" sceneMemberID="viewController">
+                <viewController id="ulb-Y1-pra" customClass="GlobalHighScoresViewController" customModule="Endless_Runner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XEW-iA-vvk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

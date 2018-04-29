@@ -7,11 +7,27 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
 
-class GlobalHighScoresViewController: UITableViewController {
+class GlobalHighScoresViewController: UIViewController {
 
+    var ref = Database.database().reference()
+    var currentUser = Auth.auth().currentUser
+    var localScores: [Int]  = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("working")
+        let newRef =  ref.child(byAppendingPath:"Leaderboards")
+        newRef.queryOrdered(byChild: "Score").queryLimited(toLast: 10).observeSingleEvent(of: .value, with: {(snapshot) in
+            print(snapshot)
+            
+            print("working")
+            
+            
+        })
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
