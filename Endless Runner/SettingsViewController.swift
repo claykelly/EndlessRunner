@@ -26,6 +26,8 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var newScore = addNewScore.create(_newScore: 0)
+        newScore.addNew()
     }
     
     override func didReceiveMemoryWarning() {
