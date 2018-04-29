@@ -38,9 +38,7 @@ func addNew(){
             userName = checkName
         }
         
-        let post2:[String:Any] = ["Player": userName, "Score": self.newScore]
         
-        ref.child("Leaderboards").childByAutoId().setValue(post2)
     })
     
     ref.child("UserData").child((currentUser?.uid)!).child("Scores").observeSingleEvent(of: .value, with: {(snapshot) in

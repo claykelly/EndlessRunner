@@ -19,6 +19,17 @@ class CreateUserNameViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func returnToMainMenu(_ sender: Any) {
+            if Auth.auth().currentUser != nil {
+                do {
+                    try Auth.auth().signOut()
+                    self.performSegue(withIdentifier: "goToLogin", sender: self)
+                    
+                } catch let error as NSError {
+                    print(error.localizedDescription)
+                }
+            }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

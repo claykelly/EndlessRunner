@@ -18,7 +18,6 @@ class LocalHighScoresViewController: UIViewController {
     var localScores: [Int]  = []
 
     @IBOutlet weak var topScore: UILabel!
-    
    
     @IBOutlet weak var secondScore: UILabel!
     
