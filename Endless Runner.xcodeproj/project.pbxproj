@@ -50,9 +50,6 @@
 		908F74D5206AFEF300C07E4B /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D4206AFEF300C07E4B /* CreditsViewController.swift */; };
 		908F74D6206AFEF300C07E4B /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D4206AFEF300C07E4B /* CreditsViewController.swift */; };
 		908F74D7206AFEF300C07E4B /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D4206AFEF300C07E4B /* CreditsViewController.swift */; };
-		908F74D9206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
-		908F74DA206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
-		908F74DB206AFF1900C07E4B /* MidGameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74D8206AFF1900C07E4B /* MidGameSettings.swift */; };
 		C3D40FF9207D544C0069E972 /* MidGameQuitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */; };
 		C3D40FFB207D55790069E972 /* HighScoreTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */; };
 		C3D40FFD207D55E00069E972 /* LocalHighScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D40FFC207D55E00069E972 /* LocalHighScoresTableViewController.swift */; };
@@ -113,7 +110,6 @@
 		908F74BC206AE1F800C07E4B /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		908F74C4206AF47100C07E4B /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
 		908F74D4206AFEF300C07E4B /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
-		908F74D8206AFF1900C07E4B /* MidGameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameSettings.swift; sourceTree = "<group>"; };
 		BBF5F648E7B4D3DD8AE7125C /* Pods-Endless Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.release.xcconfig"; sourceTree = "<group>"; };
 		C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidGameQuitViewController.swift; sourceTree = "<group>"; };
 		C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreTabViewController.swift; sourceTree = "<group>"; };
@@ -214,7 +210,6 @@
 				908F746F206ABF9C00C07E4B /* Main.storyboard */,
 				908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */,
 				C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */,
-				908F74D8206AFF1900C07E4B /* MidGameSettings.swift */,
 				908F74C4206AF47100C07E4B /* PauseViewController.swift */,
 				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
 			);
@@ -480,7 +475,6 @@
 				C3D40FF9207D544C0069E972 /* MidGameQuitViewController.swift in Sources */,
 				89A224742096F74500D98CC3 /* GameScene.swift in Sources */,
 				908F74D5206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
-				908F74D9206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
 				908F74B1206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
 				908F74AD206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				89A224782096F74500D98CC3 /* EndGameViewController.swift in Sources */,
@@ -507,7 +501,6 @@
 				908F74AE206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74BA206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 				908F74B2206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
-				908F74DA206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
 				908F74D6206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
 				908F74BE206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
 				908F7484206ABF9C00C07E4B /* Endless_RunnerTests.swift in Sources */,
@@ -522,7 +515,6 @@
 				908F74AF206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74BB206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 				908F74B3206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
-				908F74DB206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
 				908F74D7206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
 				908F74BF206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
 				908F748F206ABF9C00C07E4B /* Endless_RunnerUITests.swift in Sources */,
