@@ -35,8 +35,6 @@ func addNew(){
     
     var betterUser:String = "-"
     var betterScore:Int = 0
-    
-    
 
     self.ref.child("UserData").child((currentUser?.uid)!).child("Name").observeSingleEvent(of: .value, with: {(snapshot) in
         let value = snapshot.value as? NSDictionary
@@ -172,7 +170,6 @@ func addNew(){
         })
     })
     
-    
     ref.child("UserData").child((currentUser?.uid)!).child("Scores").observeSingleEvent(of: .value, with: {(snapshot) in
         
         var value = snapshot.value as? NSDictionary
@@ -245,7 +242,3 @@ func addNew(){
         ref.child("UserData").child((currentUser?.uid)!).child("Scores").setValue(post)})
 
     }}
-
-
-
-

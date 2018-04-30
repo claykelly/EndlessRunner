@@ -261,6 +261,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         gameOver = true
         store.setValue(currentScore, forKey: "FinalScore")
         
+        let newScore = addNewScore.create(_newScore: Int(currentScore))
+        newScore.addNew()
+        
         let endGameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "endGameViewController")
         self.viewController?.present(endGameVC, animated: true, completion: nil)
     }
