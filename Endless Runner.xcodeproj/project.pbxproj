@@ -213,9 +213,8 @@
 				908F74C4206AF47100C07E4B /* PauseViewController.swift */,
 				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
 			);
-			name = "Endless Runner";
-			path = "/Users/cckoutfitters/Desktop/EndlessRunner/EndlessRunner/Endless Runner";
-			sourceTree = "<absolute>";
+			path = "Endless Runner";
+			sourceTree = "<group>";
 		};
 		908F7482206ABF9C00C07E4B /* Endless RunnerTests */ = {
 			isa = PBXGroup;
@@ -670,7 +669,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DLJAY267;
 				INFOPLIST_FILE = "Endless Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "StewartBrennan.Endless-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -685,7 +686,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DLJAY267;
 				INFOPLIST_FILE = "Endless Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "StewartBrennan.Endless-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
