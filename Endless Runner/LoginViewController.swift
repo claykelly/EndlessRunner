@@ -41,7 +41,7 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: userEmail.text!, password: userPassword.text!) { (user, error) in
                 
                 if error == nil {
-                    let UserID = Auth.auth().currentUser!.uid
+
                     self.performSegue(withIdentifier: "goToMain", sender: self)
                     
                 } else {
@@ -72,7 +72,7 @@ class LoginViewController: UIViewController {
             Auth.auth().createUser(withEmail: userEmail.text!, password: userPassword.text!) { (user, error) in
                 
                 if error == nil {
-                    let UserID = Auth.auth().currentUser!.uid
+
                    self.performSegue(withIdentifier: "goToCreateUserName", sender: self)
                 } else {
                     let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
@@ -96,7 +96,7 @@ class LoginViewController: UIViewController {
         else {
             Auth.auth().sendPasswordReset(withEmail: self.userEmail.text!, completion: { (error) in
                 if error != nil {
-                    var message = (error?.localizedDescription)!
+                    let message = (error?.localizedDescription)!
                     let alert = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertControllerStyle.alert)
                     let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
                     alert.addAction(OKAction)

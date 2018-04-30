@@ -46,63 +46,62 @@ class LocalHighScoresViewController: UIViewController {
             
             var value = snapshot.value as? NSDictionary
             var score = value?["Top Score"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.topScore.text = String(score!)            }
             
             value = snapshot.value as? NSDictionary
             score = value?["Second Best"] as? Int
-            if let checkScore = score {
+            if score != nil {
                 self.secondScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Third Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.thirdScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Forth Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.forthScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Fifth Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.fifthScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Sixth Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.sixthScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Seventh Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.seventhScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Eighth Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.eighthScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Ninth Best"] as? Int
-            if let checkScore = score {
+            if score != nil{
                 self.ninthScore.text = String(score!)
             }
             
             value = snapshot.value as? NSDictionary
             score = value?["Tenth Best"] as? Int
-            if let checkScore = score {
+            if score != nil {
                 self.tenthScore.text = String(score!)
             }
-            print(self.localScores)
             
         })
         

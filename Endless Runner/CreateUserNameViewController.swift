@@ -19,17 +19,6 @@ class CreateUserNameViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    @IBAction func returnToMainMenu(_ sender: Any) {
-            if Auth.auth().currentUser != nil {
-                do {
-                    try Auth.auth().signOut()
-                    self.performSegue(withIdentifier: "goToLogin", sender: self)
-                    
-                } catch let error as NSError {
-                    print(error.localizedDescription)
-                }
-            }
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -37,12 +26,17 @@ class CreateUserNameViewController: UIViewController {
         //Test
 }
     @IBAction func SelectUserNameButton(_ sender: Any) {
-        if UserNameTextField.text == "" {
+        if UserNameTextField.text == ""  {
             let alert = UIAlertController(title: "Error", message: "You must enter a User Name", preferredStyle: UIAlertControllerStyle.alert)
             let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
             alert.addAction(OKAction)
             self.present(alert, animated: true, completion:nil)
         }
+        else if UserNameTextField.text!.count > 14{
+            let alert = UIAlertController(title: "Error", message: "Select a User Name with less than 14 Characters", preferredStyle: UIAlertControllerStyle.alert)
+            let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
+            alert.addAction(OKAction)
+            self.present(alert, animated: true, completion:nil)        }
         else{
             let post1 = ["username": UserNameTextField.text]
             let post2 = ["Top Score": 9,"Second Best": 8,"Third Best": 7,"Forth Best": 6,"Fifth Best": 5,"Sixth Best": 4,"Seventh Best": 3,"Eighth Best": 2,"Ninth Best": 1,"Tenth Best":0]

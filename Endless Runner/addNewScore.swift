@@ -27,8 +27,8 @@ class addNewScore{
     }
     
 func addNew(){
-    var ref = Database.database().reference()
-    var currentUser = Auth.auth().currentUser
+    let ref = Database.database().reference()
+    let currentUser = Auth.auth().currentUser
     
     var tempScore = newScore
 
@@ -48,10 +48,10 @@ func addNew(){
         
         self.ref.child("Leaderboard").observeSingleEvent(of: .value, with: {(snapshot) in
             
-            var value = snapshot.value as? NSDictionary
+            let value = snapshot.value as? NSDictionary
             var scoreTop = value?["Top Score"] as? Int
             var userTop = value?["Top Player"] as? String
-            if let checkScore = scoreTop {
+            if scoreTop != nil {
                 if scoreTop! < tempScore{
                     betterScore = scoreTop!
                     betterUser = userTop!
@@ -160,11 +160,11 @@ func addNew(){
                     tempUser = betterUser
                 }
                 
-                var globalPost:[String:Any]  = ["Top Score": scoreTop, "Top Player": userTop, "Second Best": scoreSecond, "Second Player": userSecond, "Third Best": scoreThird,"Third Player": userThird,"Forth Best": scoreForth,"Forth Player": userForth,"Fifth Best": scoreFifth,"Fifth Player": userFifth,"Sixth Best": scoreSixth,"Sixth Player": userSixth,"Seventh Best": scoreSeventh,"Seventh Player": userSeventh,"Eighth Best": scoreEighth,"Eighth Player": userEighth,"Ninth Best": scoreNinth,"Ninth Player": userNinth,"Tenth Best":scoreTenth,"Tenth Player": userTenth]
+                let globalPost:[String:Any]  = ["Top Score": scoreTop, "Top Player": userTop, "Second Best": scoreSecond, "Second Player": userSecond, "Third Best": scoreThird,"Third Player": userThird,"Forth Best": scoreForth,"Forth Player": userForth,"Fifth Best": scoreFifth,"Fifth Player": userFifth,"Sixth Best": scoreSixth,"Sixth Player": userSixth,"Seventh Best": scoreSeventh,"Seventh Player": userSeventh,"Eighth Best": scoreEighth,"Eighth Player": userEighth,"Ninth Best": scoreNinth,"Ninth Player": userNinth,"Tenth Best":scoreTenth,"Tenth Player": userTenth]
                 ref.child("Leaderboard").setValue(globalPost)
             }
             else{
-                var globalPost:[String:Any]  = ["Top Score": 0, "Top Player": "-", "Second Best": 0, "Second Player": "-", "Third Best": 0,"Third Player": "-","Forth Best": 0,"Forth Player": "-","Fifth Best": 0,"Fifth Player": "-","Sixth Best": 0,"Sixth Player": "-","Seventh Best": 0,"Seventh Player": "-","Eighth Best": 0,"Eighth Player": "-","Ninth Best": 0,"Ninth Player": "-","Tenth Best":0,"Tenth Player": "-"]
+                let globalPost:[String:Any]  = ["Top Score": 0, "Top Player": "-", "Second Best": 0, "Second Player": "-", "Third Best": 0,"Third Player": "-","Forth Best": 0,"Forth Player": "-","Fifth Best": 0,"Fifth Player": "-","Sixth Best": 0,"Sixth Player": "-","Seventh Best": 0,"Seventh Player": "-","Eighth Best": 0,"Eighth Player": "-","Ninth Best": 0,"Ninth Player": "-","Tenth Best":0,"Tenth Player": "-"]
                 ref.child("Leaderboard").setValue(globalPost)
             }
             
@@ -177,61 +177,61 @@ func addNew(){
         
         var value = snapshot.value as? NSDictionary
         var score = value?["Top Score"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Second Best"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Third Best"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Forth Best"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Fifth Best"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Sixth Best"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Seventh Best"] as? Int
-        if let checkScore = score {
+        if score != nil{
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Eighth Best"] as? Int
-        if let checkScore = score {
+        if score != nil{
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Ninth Best"] as? Int
-        if let checkScore = score {
+        if score != nil {
             self.localScores.append(score!)
         }
         
         value = snapshot.value as? NSDictionary
         score = value?["Tenth Best"] as? Int
-        if let checkScore = score {
+        if score != nil{
             self.localScores.append(score!)
         }
         print(self.localScores)
