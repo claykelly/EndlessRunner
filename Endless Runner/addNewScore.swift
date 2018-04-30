@@ -140,7 +140,7 @@ func addNew(){
                 
                 var scoreNinth = value?["Ninth Best"] as? Int
                 var userNinth = value?["Ninth Player"] as? String
-                if scoreThird! < tempScore{
+                if scoreNinth! < tempScore{
                     betterScore = scoreNinth!
                     betterUser = userNinth!
                     scoreNinth = tempScore

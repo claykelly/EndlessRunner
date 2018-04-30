@@ -22,7 +22,7 @@ class SettingsViewController: UIViewController {
        ref.child("UserData").child((currentUser?.uid)!).child("Scores").setValue(post)
     
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

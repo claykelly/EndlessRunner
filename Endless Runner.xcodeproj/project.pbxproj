@@ -10,6 +10,13 @@
 		0BBC1C9D31FA1383B18E102A /* Pods_Endless_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */; };
 		26BFC54A9A33F269090E1AB7 /* Pods_Endless_RunnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */; };
 		74C7012B448487AB505E33F5 /* Pods_Endless_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C10E3F29AFA5EB347DE4C18 /* Pods_Endless_RunnerTests.framework */; };
+		89A224742096F74500D98CC3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2246D2096F74300D98CC3 /* GameScene.swift */; };
+		89A224752096F74500D98CC3 /* CharacterSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2246E2096F74400D98CC3 /* CharacterSelectViewController.swift */; };
+		89A224762096F74500D98CC3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 89A2246F2096F74400D98CC3 /* GameScene.sks */; };
+		89A224772096F74500D98CC3 /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A224702096F74400D98CC3 /* EndGameScene.swift */; };
+		89A224782096F74500D98CC3 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A224712096F74500D98CC3 /* EndGameViewController.swift */; };
+		89A224792096F74500D98CC3 /* EndGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 89A224722096F74500D98CC3 /* EndGameScene.sks */; };
+		89A2247A2096F74500D98CC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A224732096F74500D98CC3 /* GameViewController.swift */; };
 		90145E4E2095F25A00CDEC36 /* addNewScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90145E4D2095F25A00CDEC36 /* addNewScore.swift */; };
 		90314410207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314411207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
@@ -22,27 +29,15 @@
 		908F7479206ABF9C00C07E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F7477206ABF9C00C07E4B /* LaunchScreen.storyboard */; };
 		908F7484206ABF9C00C07E4B /* Endless_RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F7483206ABF9C00C07E4B /* Endless_RunnerTests.swift */; };
 		908F748F206ABF9C00C07E4B /* Endless_RunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F748E206ABF9C00C07E4B /* Endless_RunnerUITests.swift */; };
-		908F749D206ABFE500C07E4B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F749C206ABFE500C07E4B /* GameScene.swift */; };
-		908F749E206ABFE500C07E4B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F749C206ABFE500C07E4B /* GameScene.swift */; };
-		908F749F206ABFE500C07E4B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F749C206ABFE500C07E4B /* GameScene.swift */; };
 		908F74A1206ABFEA00C07E4B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 908F74A0206ABFEA00C07E4B /* Actions.sks */; };
 		908F74A2206ABFEA00C07E4B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 908F74A0206ABFEA00C07E4B /* Actions.sks */; };
 		908F74A3206ABFEA00C07E4B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 908F74A0206ABFEA00C07E4B /* Actions.sks */; };
-		908F74A5206ABFEE00C07E4B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 908F74A4206ABFEE00C07E4B /* GameScene.sks */; };
-		908F74A6206ABFEE00C07E4B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 908F74A4206ABFEE00C07E4B /* GameScene.sks */; };
-		908F74A7206ABFEE00C07E4B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 908F74A4206ABFEE00C07E4B /* GameScene.sks */; };
-		908F74A9206ABFF400C07E4B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74A8206ABFF400C07E4B /* GameViewController.swift */; };
-		908F74AA206ABFF400C07E4B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74A8206ABFF400C07E4B /* GameViewController.swift */; };
-		908F74AB206ABFF400C07E4B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74A8206ABFF400C07E4B /* GameViewController.swift */; };
 		908F74AD206AC0AA00C07E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74AC206AC0AA00C07E4B /* LoginViewController.swift */; };
 		908F74AE206AC0AA00C07E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74AC206AC0AA00C07E4B /* LoginViewController.swift */; };
 		908F74AF206AC0AA00C07E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74AC206AC0AA00C07E4B /* LoginViewController.swift */; };
 		908F74B1206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */; };
 		908F74B2206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */; };
 		908F74B3206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */; };
-		908F74B5206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */; };
-		908F74B6206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */; };
-		908F74B7206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */; };
 		908F74B9206AE18A00C07E4B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B8206AE18A00C07E4B /* SettingsViewController.swift */; };
 		908F74BA206AE18A00C07E4B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B8206AE18A00C07E4B /* SettingsViewController.swift */; };
 		908F74BB206AE18A00C07E4B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F74B8206AE18A00C07E4B /* SettingsViewController.swift */; };
@@ -88,6 +83,13 @@
 		453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89A2246D2096F74300D98CC3 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = "../../../EndlessRunner/Endless Runner/GameScene.swift"; sourceTree = "<group>"; };
+		89A2246E2096F74400D98CC3 /* CharacterSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterSelectViewController.swift; path = "../../../EndlessRunner/Endless Runner/CharacterSelectViewController.swift"; sourceTree = "<group>"; };
+		89A2246F2096F74400D98CC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../../EndlessRunner/Endless Runner/GameScene.sks"; sourceTree = "<group>"; };
+		89A224702096F74400D98CC3 /* EndGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndGameScene.swift; path = "../../../EndlessRunner/Endless Runner/EndGameScene.swift"; sourceTree = "<group>"; };
+		89A224712096F74500D98CC3 /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndGameViewController.swift; path = "../../../EndlessRunner/Endless Runner/EndGameViewController.swift"; sourceTree = "<group>"; };
+		89A224722096F74500D98CC3 /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = EndGameScene.sks; path = "../../../EndlessRunner/Endless Runner/EndGameScene.sks"; sourceTree = "<group>"; };
+		89A224732096F74500D98CC3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = "../../../EndlessRunner/Endless Runner/GameViewController.swift"; sourceTree = "<group>"; };
 		90145E4D2095F25A00CDEC36 /* addNewScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewScore.swift; sourceTree = "<group>"; };
 		9031440F207B05570086060C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameViewController.swift; sourceTree = "<group>"; };
@@ -104,13 +106,9 @@
 		908F748A206ABF9C00C07E4B /* Endless RunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Endless RunnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908F748E206ABF9C00C07E4B /* Endless_RunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endless_RunnerUITests.swift; sourceTree = "<group>"; };
 		908F7490206ABF9C00C07E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		908F749C206ABFE500C07E4B /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		908F74A0206ABFEA00C07E4B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		908F74A4206ABFEE00C07E4B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		908F74A8206ABFF400C07E4B /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		908F74AC206AC0AA00C07E4B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
-		908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSelectViewController.swift; sourceTree = "<group>"; };
 		908F74B8206AE18A00C07E4B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		908F74BC206AE1F800C07E4B /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		908F74C4206AF47100C07E4B /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
@@ -191,34 +189,38 @@
 		908F746A206ABF9C00C07E4B /* Endless Runner */ = {
 			isa = PBXGroup;
 			children = (
-				908F746B206ABF9C00C07E4B /* AppDelegate.swift */,
-				908F74AC206AC0AA00C07E4B /* LoginViewController.swift */,
-				9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */,
-				908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */,
-				908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */,
-				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
-				908F74BC206AE1F800C07E4B /* LogoutViewController.swift */,
-				908F74C4206AF47100C07E4B /* PauseViewController.swift */,
-				C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */,
-				C3D40FFC207D55E00069E972 /* LocalHighScoresTableViewController.swift */,
-				C3D40FFE207D55EE0069E972 /* GlobalHighScoresTableViewController.swift */,
-				908F74D4206AFEF300C07E4B /* CreditsViewController.swift */,
-				908F74D8206AFF1900C07E4B /* MidGameSettings.swift */,
-				C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */,
-				908F74A8206ABFF400C07E4B /* GameViewController.swift */,
-				908F749C206ABFE500C07E4B /* GameScene.swift */,
-				90145E4D2095F25A00CDEC36 /* addNewScore.swift */,
-				908F746F206ABF9C00C07E4B /* Main.storyboard */,
-				908F7475206ABF9C00C07E4B /* Assets.xcassets */,
-				908F7477206ABF9C00C07E4B /* LaunchScreen.storyboard */,
-				908F747A206ABF9C00C07E4B /* Info.plist */,
-				908F7472206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld */,
-				908F74A4206ABFEE00C07E4B /* GameScene.sks */,
 				908F74A0206ABFEA00C07E4B /* Actions.sks */,
+				90145E4D2095F25A00CDEC36 /* addNewScore.swift */,
+				908F746B206ABF9C00C07E4B /* AppDelegate.swift */,
+				908F7475206ABF9C00C07E4B /* Assets.xcassets */,
+				89A2246E2096F74400D98CC3 /* CharacterSelectViewController.swift */,
+				9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */,
+				908F74D4206AFEF300C07E4B /* CreditsViewController.swift */,
+				89A224722096F74500D98CC3 /* EndGameScene.sks */,
+				89A224702096F74400D98CC3 /* EndGameScene.swift */,
+				89A224712096F74500D98CC3 /* EndGameViewController.swift */,
+				908F7472206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld */,
+				89A2246F2096F74400D98CC3 /* GameScene.sks */,
+				89A2246D2096F74300D98CC3 /* GameScene.swift */,
+				89A224732096F74500D98CC3 /* GameViewController.swift */,
+				C3D40FFE207D55EE0069E972 /* GlobalHighScoresTableViewController.swift */,
 				9031440F207B05570086060C /* GoogleService-Info.plist */,
+				C3D40FFA207D55790069E972 /* HighScoreTabViewController.swift */,
+				908F747A206ABF9C00C07E4B /* Info.plist */,
+				908F7477206ABF9C00C07E4B /* LaunchScreen.storyboard */,
+				C3D40FFC207D55E00069E972 /* LocalHighScoresTableViewController.swift */,
+				908F74AC206AC0AA00C07E4B /* LoginViewController.swift */,
+				908F74BC206AE1F800C07E4B /* LogoutViewController.swift */,
+				908F746F206ABF9C00C07E4B /* Main.storyboard */,
+				908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */,
+				C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */,
+				908F74D8206AFF1900C07E4B /* MidGameSettings.swift */,
+				908F74C4206AF47100C07E4B /* PauseViewController.swift */,
+				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
 			);
-			path = "Endless Runner";
-			sourceTree = "<group>";
+			name = "Endless Runner";
+			path = "/Users/treyguckian/Documents/GitHub/EndlessRunner/Endless Runner";
+			sourceTree = "<absolute>";
 		};
 		908F7482206ABF9C00C07E4B /* Endless RunnerTests */ = {
 			isa = PBXGroup;
@@ -360,10 +362,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				908F7479206ABF9C00C07E4B /* LaunchScreen.storyboard in Resources */,
-				908F74A5206ABFEE00C07E4B /* GameScene.sks in Resources */,
 				908F7476206ABF9C00C07E4B /* Assets.xcassets in Resources */,
 				908F7471206ABF9C00C07E4B /* Main.storyboard in Resources */,
+				89A224762096F74500D98CC3 /* GameScene.sks in Resources */,
 				908F74A1206ABFEA00C07E4B /* Actions.sks in Resources */,
+				89A224792096F74500D98CC3 /* EndGameScene.sks in Resources */,
 				90314410207B05570086060C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908F74A6206ABFEE00C07E4B /* GameScene.sks in Resources */,
 				908F74A2206ABFEA00C07E4B /* Actions.sks in Resources */,
 				90314411207B05570086060C /* GoogleService-Info.plist in Resources */,
 			);
@@ -382,7 +384,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908F74A7206ABFEE00C07E4B /* GameScene.sks in Resources */,
 				908F74A3206ABFEA00C07E4B /* Actions.sks in Resources */,
 				90314412207B05570086060C /* GoogleService-Info.plist in Resources */,
 			);
@@ -477,19 +478,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D40FF9207D544C0069E972 /* MidGameQuitViewController.swift in Sources */,
+				89A224742096F74500D98CC3 /* GameScene.swift in Sources */,
 				908F74D5206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
 				908F74D9206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
 				908F74B1206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
 				908F74AD206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
+				89A224782096F74500D98CC3 /* EndGameViewController.swift in Sources */,
 				90145E4E2095F25A00CDEC36 /* addNewScore.swift in Sources */,
-				908F74B5206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
-				908F74A9206ABFF400C07E4B /* GameViewController.swift in Sources */,
 				908F7474206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld in Sources */,
+				89A224752096F74500D98CC3 /* CharacterSelectViewController.swift in Sources */,
 				C3D40FFB207D55790069E972 /* HighScoreTabViewController.swift in Sources */,
 				C3D40FFD207D55E00069E972 /* LocalHighScoresTableViewController.swift in Sources */,
-				908F749D206ABFE500C07E4B /* GameScene.swift in Sources */,
+				89A2247A2096F74500D98CC3 /* GameViewController.swift in Sources */,
 				C3D40FFF207D55EE0069E972 /* GlobalHighScoresTableViewController.swift in Sources */,
 				908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */,
+				89A224772096F74500D98CC3 /* EndGameScene.swift in Sources */,
 				908F74C5206AF47100C07E4B /* PauseViewController.swift in Sources */,
 				908F74BD206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
 				9049A0C02094C4BB008AAA9B /* CreateUserNameViewController.swift in Sources */,
@@ -501,14 +504,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908F74B6206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
 				908F74AE206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74BA206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 				908F74B2206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
 				908F74DA206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
-				908F749E206ABFE500C07E4B /* GameScene.swift in Sources */,
 				908F74D6206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
-				908F74AA206ABFF400C07E4B /* GameViewController.swift in Sources */,
 				908F74BE206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
 				908F7484206ABF9C00C07E4B /* Endless_RunnerTests.swift in Sources */,
 				908F74C6206AF47100C07E4B /* PauseViewController.swift in Sources */,
@@ -519,14 +519,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908F74B7206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
 				908F74AF206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74BB206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 				908F74B3206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
 				908F74DB206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
-				908F749F206ABFE500C07E4B /* GameScene.swift in Sources */,
 				908F74D7206AFEF300C07E4B /* CreditsViewController.swift in Sources */,
-				908F74AB206ABFF400C07E4B /* GameViewController.swift in Sources */,
 				908F74BF206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
 				908F748F206ABF9C00C07E4B /* Endless_RunnerUITests.swift in Sources */,
 				908F74C7206AF47100C07E4B /* PauseViewController.swift in Sources */,
