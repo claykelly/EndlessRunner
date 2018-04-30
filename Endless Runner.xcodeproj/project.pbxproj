@@ -83,13 +83,13 @@
 		453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		89A2246D2096F74300D98CC3 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = "../../../EndlessRunner/Endless Runner/GameScene.swift"; sourceTree = "<group>"; };
-		89A2246E2096F74400D98CC3 /* CharacterSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterSelectViewController.swift; path = "../../../EndlessRunner/Endless Runner/CharacterSelectViewController.swift"; sourceTree = "<group>"; };
-		89A2246F2096F74400D98CC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../../EndlessRunner/Endless Runner/GameScene.sks"; sourceTree = "<group>"; };
-		89A224702096F74400D98CC3 /* EndGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndGameScene.swift; path = "../../../EndlessRunner/Endless Runner/EndGameScene.swift"; sourceTree = "<group>"; };
-		89A224712096F74500D98CC3 /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndGameViewController.swift; path = "../../../EndlessRunner/Endless Runner/EndGameViewController.swift"; sourceTree = "<group>"; };
-		89A224722096F74500D98CC3 /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = EndGameScene.sks; path = "../../../EndlessRunner/Endless Runner/EndGameScene.sks"; sourceTree = "<group>"; };
-		89A224732096F74500D98CC3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = "../../../EndlessRunner/Endless Runner/GameViewController.swift"; sourceTree = "<group>"; };
+		89A2246D2096F74300D98CC3 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		89A2246E2096F74400D98CC3 /* CharacterSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSelectViewController.swift; sourceTree = "<group>"; };
+		89A2246F2096F74400D98CC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		89A224702096F74400D98CC3 /* EndGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
+		89A224712096F74500D98CC3 /* EndGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		89A224722096F74500D98CC3 /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameScene.sks; sourceTree = "<group>"; };
+		89A224732096F74500D98CC3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		90145E4D2095F25A00CDEC36 /* addNewScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewScore.swift; sourceTree = "<group>"; };
 		9031440F207B05570086060C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameViewController.swift; sourceTree = "<group>"; };
@@ -219,7 +219,7 @@
 				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
 			);
 			name = "Endless Runner";
-			path = "/Users/treyguckian/Documents/GitHub/EndlessRunner/Endless Runner";
+			path = "/Users/cckoutfitters/Desktop/EndlessRunner/EndlessRunner/Endless Runner";
 			sourceTree = "<absolute>";
 		};
 		908F7482206ABF9C00C07E4B /* Endless RunnerTests */ = {
