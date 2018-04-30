@@ -9,6 +9,19 @@
 import UIKit
 
 class CharacterSelectViewController: UIViewController {
+    let store = UserDefaults.standard
+
+    @IBAction func easyButton(_ sender: UIButton) {
+        store.setValue("OrangeGuy", forKey: "Difficulty")
+    }
+    
+    @IBAction func medButton(_ sender: UIButton) {
+        store.setValue("guy3", forKey: "Difficulty")
+    }
+    
+    @IBAction func hardButton(_ sender: UIButton) {
+        store.setValue("guy2", forKey: "Difficulty")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

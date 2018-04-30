@@ -10,6 +10,10 @@
 		0BBC1C9D31FA1383B18E102A /* Pods_Endless_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */; };
 		26BFC54A9A33F269090E1AB7 /* Pods_Endless_RunnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */; };
 		74C7012B448487AB505E33F5 /* Pods_Endless_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C10E3F29AFA5EB347DE4C18 /* Pods_Endless_RunnerTests.framework */; };
+		89C8E77F20921CF900E648D7 /* EndGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 89C8E77E20921CF900E648D7 /* EndGameScene.sks */; };
+		89C8E78120922CE000E648D7 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E78020922CE000E648D7 /* EndGameViewController.swift */; };
+		89C8E78320926D1500E648D7 /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E78220926D1500E648D7 /* EndGameScene.swift */; };
+		89C8E785209682CD00E648D7 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E784209682CD00E648D7 /* HelpViewController.swift */; };
 		90314410207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314411207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314412207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
@@ -86,6 +90,10 @@
 		453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89C8E77E20921CF900E648D7 /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameScene.sks; sourceTree = "<group>"; };
+		89C8E78020922CE000E648D7 /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
+		89C8E78220926D1500E648D7 /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
+		89C8E784209682CD00E648D7 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		9031440F207B05570086060C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		908F7468206ABF9C00C07E4B /* Endless Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908F746B206ABF9C00C07E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +210,9 @@
 				C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */,
 				908F74A8206ABFF400C07E4B /* GameViewController.swift */,
 				908F749C206ABFE500C07E4B /* GameScene.swift */,
+				89C8E78220926D1500E648D7 /* EndGameScene.swift */,
+				89C8E77E20921CF900E648D7 /* EndGameScene.sks */,
+				89C8E78020922CE000E648D7 /* EndGameViewController.swift */,
 				908F746F206ABF9C00C07E4B /* Main.storyboard */,
 				908F7475206ABF9C00C07E4B /* Assets.xcassets */,
 				908F7477206ABF9C00C07E4B /* LaunchScreen.storyboard */,
@@ -210,6 +221,7 @@
 				908F74A4206ABFEE00C07E4B /* GameScene.sks */,
 				908F74A0206ABFEA00C07E4B /* Actions.sks */,
 				9031440F207B05570086060C /* GoogleService-Info.plist */,
+				89C8E784209682CD00E648D7 /* HelpViewController.swift */,
 			);
 			path = "Endless Runner";
 			sourceTree = "<group>";
@@ -354,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				908F7479206ABF9C00C07E4B /* LaunchScreen.storyboard in Resources */,
+				89C8E77F20921CF900E648D7 /* EndGameScene.sks in Resources */,
 				908F74A5206ABFEE00C07E4B /* GameScene.sks in Resources */,
 				908F7476206ABF9C00C07E4B /* Assets.xcassets in Resources */,
 				908F7471206ABF9C00C07E4B /* Main.storyboard in Resources */,
@@ -475,14 +488,17 @@
 				908F74AD206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
 				908F74B5206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
 				908F74A9206ABFF400C07E4B /* GameViewController.swift in Sources */,
+				89C8E78120922CE000E648D7 /* EndGameViewController.swift in Sources */,
 				908F7474206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld in Sources */,
 				C3D40FFB207D55790069E972 /* HighScoreTabViewController.swift in Sources */,
 				C3D40FFD207D55E00069E972 /* LocalHighScoresTableViewController.swift in Sources */,
 				908F749D206ABFE500C07E4B /* GameScene.swift in Sources */,
+				89C8E785209682CD00E648D7 /* HelpViewController.swift in Sources */,
 				C3D40FFF207D55EE0069E972 /* GlobalHighScoresTableViewController.swift in Sources */,
 				908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */,
 				908F74C5206AF47100C07E4B /* PauseViewController.swift in Sources */,
 				908F74BD206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
+				89C8E78320926D1500E648D7 /* EndGameScene.swift in Sources */,
 				908F74B9206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -671,7 +687,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DLJAY267;
 				INFOPLIST_FILE = "Endless Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "StewartBrennan.Endless-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -686,7 +704,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DLJAY267;
 				INFOPLIST_FILE = "Endless Runner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "StewartBrennan.Endless-Runner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
