@@ -9,12 +9,17 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseDatabase
 
 class LoginViewController: UIViewController {
+    
     @IBOutlet weak var userEmail: UITextField!
     @IBOutlet weak var userPassword: UITextField!
+    var ref : DatabaseReference!
+    
     
     override func viewDidLoad() {
+        ref = Database.database().reference()
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -25,6 +30,7 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func signInUser(_ sender: Any) {
+        
         if userEmail.text == "" || userPassword.text == ""{
             let alert = UIAlertController(title: "Error", message: "You must enter a value for all fields", preferredStyle: UIAlertControllerStyle.alert)
             let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
@@ -35,7 +41,7 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: userEmail.text!, password: userPassword.text!) { (user, error) in
                 
                 if error == nil {
-                    
+
                     self.performSegue(withIdentifier: "goToMain", sender: self)
                     
                 } else {
@@ -66,7 +72,8 @@ class LoginViewController: UIViewController {
             Auth.auth().createUser(withEmail: userEmail.text!, password: userPassword.text!) { (user, error) in
                 
                 if error == nil {
-                   self.performSegue(withIdentifier: "goToMain", sender: self)
+
+                   self.performSegue(withIdentifier: "goToCreateUserName", sender: self)
                 } else {
                     let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
                     
@@ -89,7 +96,7 @@ class LoginViewController: UIViewController {
         else {
             Auth.auth().sendPasswordReset(withEmail: self.userEmail.text!, completion: { (error) in
                 if error != nil {
-                    var message = (error?.localizedDescription)!
+                    let message = (error?.localizedDescription)!
                     let alert = UIAlertController(title: "Error", message: message, preferredStyle: UIAlertControllerStyle.alert)
                     let OKAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default)
                     alert.addAction(OKAction)
@@ -99,6 +106,5 @@ class LoginViewController: UIViewController {
             })
         }
     }
-    
-    
-}
+    }
+

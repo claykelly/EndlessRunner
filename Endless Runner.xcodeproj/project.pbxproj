@@ -10,13 +10,18 @@
 		0BBC1C9D31FA1383B18E102A /* Pods_Endless_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */; };
 		26BFC54A9A33F269090E1AB7 /* Pods_Endless_RunnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF125BE3F6288CD3756DDA5 /* Pods_Endless_RunnerUITests.framework */; };
 		74C7012B448487AB505E33F5 /* Pods_Endless_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C10E3F29AFA5EB347DE4C18 /* Pods_Endless_RunnerTests.framework */; };
+<<<<<<< HEAD
 		89C8E77F20921CF900E648D7 /* EndGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 89C8E77E20921CF900E648D7 /* EndGameScene.sks */; };
 		89C8E78120922CE000E648D7 /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E78020922CE000E648D7 /* EndGameViewController.swift */; };
 		89C8E78320926D1500E648D7 /* EndGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E78220926D1500E648D7 /* EndGameScene.swift */; };
 		89C8E785209682CD00E648D7 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8E784209682CD00E648D7 /* HelpViewController.swift */; };
+=======
+		90145E4E2095F25A00CDEC36 /* addNewScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90145E4D2095F25A00CDEC36 /* addNewScore.swift */; };
+>>>>>>> b829b88d7152da821c93abd4465d65c50eb0b335
 		90314410207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314411207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
 		90314412207B05570086060C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9031440F207B05570086060C /* GoogleService-Info.plist */; };
+		9049A0C02094C4BB008AAA9B /* CreateUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */; };
 		908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F746B206ABF9C00C07E4B /* AppDelegate.swift */; };
 		908F7471206ABF9C00C07E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908F746F206ABF9C00C07E4B /* Main.storyboard */; };
 		908F7474206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 908F7472206ABF9C00C07E4B /* Endless_Runner.xcdatamodeld */; };
@@ -90,11 +95,16 @@
 		453F5D64CA9FF683175C4C17 /* Pods-Endless Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless Runner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD8C1D1C00B082B25E6DA8F /* Pods_Endless_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Endless_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5444889AD476036420F844 /* Pods-Endless RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Endless RunnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Endless RunnerTests/Pods-Endless RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		89C8E77E20921CF900E648D7 /* EndGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndGameScene.sks; sourceTree = "<group>"; };
 		89C8E78020922CE000E648D7 /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 		89C8E78220926D1500E648D7 /* EndGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameScene.swift; sourceTree = "<group>"; };
 		89C8E784209682CD00E648D7 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+=======
+		90145E4D2095F25A00CDEC36 /* addNewScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewScore.swift; sourceTree = "<group>"; };
+>>>>>>> b829b88d7152da821c93abd4465d65c50eb0b335
 		9031440F207B05570086060C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameViewController.swift; sourceTree = "<group>"; };
 		908F7468206ABF9C00C07E4B /* Endless Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908F746B206ABF9C00C07E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		908F7470206ABF9C00C07E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -197,6 +207,7 @@
 			children = (
 				908F746B206ABF9C00C07E4B /* AppDelegate.swift */,
 				908F74AC206AC0AA00C07E4B /* LoginViewController.swift */,
+				9049A0BF2094C4BB008AAA9B /* CreateUserNameViewController.swift */,
 				908F74B0206ADC4C00C07E4B /* MainMenuViewController.swift */,
 				908F74B4206AE13E00C07E4B /* CharacterSelectViewController.swift */,
 				908F74B8206AE18A00C07E4B /* SettingsViewController.swift */,
@@ -210,9 +221,13 @@
 				C3D40FF8207D544C0069E972 /* MidGameQuitViewController.swift */,
 				908F74A8206ABFF400C07E4B /* GameViewController.swift */,
 				908F749C206ABFE500C07E4B /* GameScene.swift */,
+<<<<<<< HEAD
 				89C8E78220926D1500E648D7 /* EndGameScene.swift */,
 				89C8E77E20921CF900E648D7 /* EndGameScene.sks */,
 				89C8E78020922CE000E648D7 /* EndGameViewController.swift */,
+=======
+				90145E4D2095F25A00CDEC36 /* addNewScore.swift */,
+>>>>>>> b829b88d7152da821c93abd4465d65c50eb0b335
 				908F746F206ABF9C00C07E4B /* Main.storyboard */,
 				908F7475206ABF9C00C07E4B /* Assets.xcassets */,
 				908F7477206ABF9C00C07E4B /* LaunchScreen.storyboard */,
@@ -443,12 +458,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Endless Runner/Pods-Endless Runner-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +503,7 @@
 				908F74D9206AFF1900C07E4B /* MidGameSettings.swift in Sources */,
 				908F74B1206ADC4C00C07E4B /* MainMenuViewController.swift in Sources */,
 				908F74AD206AC0AA00C07E4B /* LoginViewController.swift in Sources */,
+				90145E4E2095F25A00CDEC36 /* addNewScore.swift in Sources */,
 				908F74B5206AE13E00C07E4B /* CharacterSelectViewController.swift in Sources */,
 				908F74A9206ABFF400C07E4B /* GameViewController.swift in Sources */,
 				89C8E78120922CE000E648D7 /* EndGameViewController.swift in Sources */,
@@ -498,7 +516,11 @@
 				908F746C206ABF9C00C07E4B /* AppDelegate.swift in Sources */,
 				908F74C5206AF47100C07E4B /* PauseViewController.swift in Sources */,
 				908F74BD206AE1F800C07E4B /* LogoutViewController.swift in Sources */,
+<<<<<<< HEAD
 				89C8E78320926D1500E648D7 /* EndGameScene.swift in Sources */,
+=======
+				9049A0C02094C4BB008AAA9B /* CreateUserNameViewController.swift in Sources */,
+>>>>>>> b829b88d7152da821c93abd4465d65c50eb0b335
 				908F74B9206AE18A00C07E4B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
