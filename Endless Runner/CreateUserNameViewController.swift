@@ -45,4 +45,8 @@ class CreateUserNameViewController: UIViewController {
             self.performSegue(withIdentifier: "goToMainFromCreateUserName", sender: self)
         }
     }
+    // To dismiss the keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
