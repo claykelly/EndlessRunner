@@ -39,7 +39,7 @@ class CreateUserNameViewController: UIViewController {
             self.present(alert, animated: true, completion:nil)        }
         else{
             let post1 = ["username": UserNameTextField.text]
-            let post2 = ["Top Score": 9,"Second Best": 8,"Third Best": 7,"Forth Best": 6,"Fifth Best": 5,"Sixth Best": 4,"Seventh Best": 3,"Eighth Best": 2,"Ninth Best": 1,"Tenth Best":0]
+            let post2 = ["Top Score": 0,"Second Best": 0,"Third Best": 0,"Forth Best": 0,"Fifth Best": 0,"Sixth Best": 0,"Seventh Best": 0,"Eighth Best": 0,"Ninth Best": 0,"Tenth Best":0]
             self.ref.child("UserData").child((currentUser?.uid)!).child("Name").setValue(post1)
             self.ref.child("UserData").child((currentUser?.uid)!).child("Scores").setValue(post2)
             self.performSegue(withIdentifier: "goToMainFromCreateUserName", sender: self)
